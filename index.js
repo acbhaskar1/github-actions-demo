@@ -9,7 +9,7 @@ function greet(name) {
 
 // A simple test case
 function runTest() {
-    const expected = 'Hello, GitHub Actions!';
+    const expected = 'Goodbye, GitHub Actions!';
     const actual = greet('GitHub Actions');
 
     if (actual === expected) {
